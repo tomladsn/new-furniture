@@ -1,0 +1,85 @@
+.root {
+  width: 100vw;
+}
+@media (max-width: 500px) {
+  .root {
+    width: 100vw;
+  }
+}
+.shop-div {
+  display: flex;
+  width: 100vw;
+  flex-direction: row;
+  flex-wrap: wrap;
+  position: relative;
+  margin: 40px;
+}
+@media (max-width: 500px) {
+  .shop-div {
+    display: flex;
+    width: 130px;
+    flex-wrap: wrap;
+    position: absolute;
+ align-self: center;
+   align-items: center;
+  }
+}
+@media screen and (min-width: 1800px) {
+  /* Your CSS rules for devices with a minimum width of 1800 pixels */
+  .shop-div {
+    min-width: 1900px;
+  }
+}
+.nav-shop {
+  width: 100%;
+}
+@media (max-width: 500px) {
+  .nav-shop {
+
+    width: 100vw;
+
+  }
+}
+@media screen and (min-width: 1800px) {
+  /* Your CSS rules for devices with a minimum width of 1800 pixels */
+  .nav-shop {
+    min-width: 1800px;
+  }
+}
+
+.text-shop{
+  color: black;
+  font-Size: 48px;
+  font-Family: Inria Serif;
+  font-Weight: 700px;
+  word-Wrap: break-word;
+  width: 700px;
+  margin-Left: 39px;
+  margin-Top: 30px;
+}
+@media (max-width: 500px) {
+  .text-shop {
+    width: 100vw;
+    margin-left: 3px;
+    font-size: 48px;
+
+  }
+}
+.footer11 {
+  position: absolute;
+  top: 1000px
+}
+@media (max-width: 500px) {
+  .footer11 {
+position: absolute;
+top: 2300px;
+
+  }
+}
+@media (min-width: 700px) and (max-width: 1000px) {
+  .footer11 {
+position: absolute;
+top: 1400px;
+
+  }
+}

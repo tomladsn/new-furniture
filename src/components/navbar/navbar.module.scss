@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+
+.root {
+  position: relative;
+  box-shadow:
+    3px 3px 2px rgba(0, 0, 0, 0.45),
+    0.71px 0.71px #000000;
+  background-color: rgba(243, 243, 243, 1);
+  top: 0px;
+ 
+}
+
+@media (min-width: 2501px) {
+  .root {
+    width: 100vw;
+  }
+}
+
+@media screen and (min-width: 1800px) {
+  /* Your CSS rules for devices with a minimum width of 1800 pixels */
+  .root {
+    width: 100vw;
+  }
+}
+p {
+  margin: 0;
+}
+.navbar {
+  height: 85px;
+  background-color: rgba(243, 243, 243, 1);
+  position: relative;
+  width: 100vw;
+}
+@media (max-width: 500px) {
+  .navbar {
+    width: 100vw;
+  }
+}
+@media (max-width: 500px) {
+  .navmen {
+    display: none;
+  }
+}
+@media screen and (min-width: 1800px) {
+  /* Your CSS rules for devices with a minimum width of 1800 pixels */
+  .navbar {
+    max-width: 100vw;
+  }
+}
+.logo {
+  position: absolute;
+  bottom: 30px;
+  height: 70px;
+  top: 2px;
+  left: 10px;
+}
+@media (max-width: 770px) {
+  .logo {
+    width: 30vw;
+    height: 9vh;
+    position: absolute;
+    top: 10px;
+  }
+}
+.navmenu {
+  color: #171a1f;
+  transform: rotate(-1deg);
+  text-align: left;
+  vertical-align: text-top;
+  font-size: 32px;
+  font-family: Inria Serif;
+  line-height: 26px;
+  border-style: hidden;
+  outline: none;
+  width: 106px;
+  position: relative;
+  left: 48vw;
+  top: 38px;
+}
+@media (max-width: 770px) {
+  .navmenu {
+    font-size: min(4vw, 32px);
+    position: absolute;
+    left: 42vw;
+  }
+}
+@media screen and (min-width: 1800px) {
+  /* Your CSS rules for devices with a minimum width of 1800 pixels */
+  .navmenu {
+    position: absolute;
+    left: 1200px;
+  }
+}
+@media (min-width: 2501px) {
+  .navmenu {
+    position: absolute;
+    left: 60vw;
+  }
+}
+.navicon {
+  height: 57px;
+  width: 92px;
+  border-radius: 2px;
+  left: 90vw;
+  top: 28px;
+  position: absolute;
+}
+@media (max-width: 770px) {
+  .navicon {
+    width: 9vw;
+    position: absolute;
+    top: 22px;
+  }
+}
+@media screen and (min-width: 1800px) {
+  /* Your CSS rules for devices with a minimum width of 1800 pixels */
+  .navicon {
+    position: absolute;
+    left: 95vw
+  }
+}
+@media (min-width: 2501px) {
+  .navicon {
+    position: absolute;
+    left: 94vw;
+  }
+}
+.navmenu1 {
+  color: #171a1f;
+  transform: rotate(-1deg);
+  text-align: left;
+  vertical-align: text-top;
+  font-size: 32px;
+  font-family: Inria Serif;
+  line-height: 26px;
+  border-style: hidden;
+  outline: none;
+  width: 165px;
+  top: 38px;
+  position: absolute;
+  left: 60vw;
+}
+@media (max-width: 770px) {
+  .navmenu1 {
+    font-size: min(4vw, 32px);
+    position: absolute;
+    left: 55vw;
+  }
+}
+@media screen and (min-width: 1800px) {
+  /* Your CSS rules for devices with a minimum width of 1800 pixels */
+  .navmenu1 {
+    position: absolute;
+    left: 1350px;
+  }
+}
+@media (min-width: 2501px) {
+  .navmenu1 {
+    position: absolute;
+    left: 80vw;
+  }
+}
+.navmenu2 {
+  color: #171a1f;
+  transform: rotate(-1deg);
+  text-align: left;
+  vertical-align: text-top;
+  font-size: 32px;
+  font-family: Inria Serif;
+  line-height: 26px;
+  border-style: hidden;
+  outline: none;
+  width: 153px;
+  position: absolute;
+  left: 76vw;
+  top: 38px;
+}
+@media (max-width: 770px) {
+  .navmenu2 {
+    font-size: min(4vw, 32px);
+    position: absolute;
+    left: 75vw;
+  }
+}
+@media screen and (min-width: 1800px) {
+  /* Your CSS rules for devices with a minimum width of 1800 pixels */
+  .navmenu2 {
+    position: absolute;
+    left: 1550px;
+  }
+}
+@media (min-width: 2501px) {
+  .navmenu2 {
+    position: absolute;
+    left: 70vw;
+  }
+}
+.menu-mod-icon {
+  display: block;
+  position: absolute;
+  left: 367px;
+  top: 25px;
+  width: 250px;
+}
+
+@media (min-width: 450px) {
+  .menu-mod-icon {
+    display: none; /* Hide the menu icon on screens wider than 450px (desktop view) */
+  }
+}
+@media (max-width: 500px) {
+  .root {
+    width: 100vw;
+    height: 70px;
+    background-color: rgba(243, 243, 243, 1);
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    width: inherit;
+  }
+}
+@media (max-width: 770px) {
+  .root {
+    width: 100vw;
+    margin: 0;
+  }
+}
+@media (max-width: 500px) {
+  .logo {
+    position: absolute;
+    bottom: 30px;
+    top: 2px;
+    width: 245px;
+    height: 45px;
+  }
+}

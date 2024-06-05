@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+
+.App {
+  margin: 0 auto;
+  text-align: center;
+  background-color: rgba(245, 245, 247, 1);
+  width: 100vw;
+}
+
+@media screen and (min-width: 1800px) {
+  /* Your CSS rules for devices with a minimum width of 1800 pixels */
+  .App {
+    width: 100vw;
+  }
+}
+@media (min-width: 2501px) {
+  .App {
+width: 100vw;
+  }
+}
+.logo {
+  padding: 1.25em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+.logo.ts:hover {
+  filter: drop-shadow(0 0 2em #3178c6aa);
+}
+
+.logo.scss:hover {
+  filter: drop-shadow(0 0 2em #cc6698aa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+.fav-slider {
+  position: relative;
+  top: 164px;
+}
+.footer11 {
+  position: relative;
+  top: 2080px;
+  width: auto;
+}
+
+@media (max-width: 770px) {
+  .App {
+    width: 100vw;
+    margin: 0;
+  }
+}

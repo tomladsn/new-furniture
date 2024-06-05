@@ -1,0 +1,232 @@
+.root {
+  width: auto;
+  height: auto;
+}
+
+.configurator-section {
+  width: 100vw;
+  height: 50vh;
+
+}
+.canva-div {
+  width: 72vw;
+  height: 90vh;
+  left: 405px;
+  position: absolute;
+
+}
+.canva {
+  position: absolute;
+  right: 0;
+}
+.configurator-listing {
+  height: 87vh;
+  width: 400px;
+  position: absolute;
+  left: 0;
+  top: 220px;
+  margin-top: 0px;
+  box-shadow: 1.41px 1.41px 24px -11px black;
+}
+@media (min-width: 1004px) and (max-width: 1300px)  {
+  .configurator-listing {
+position: absolute;
+
+
+
+  }
+}
+@media (min-width: 1304px) and (max-width: 1700px)  {
+  .configurator-listing {
+position: absolute;
+
+
+
+  }
+}
+@media (min-width: 1904px) and (max-width: 2700px)  {
+  .configurator-listing {
+    position: absolute;
+
+
+
+  }
+}
+
+.first-slide-block {
+  cursor: pointer; /* Change cursor to pointer */
+  transition: background-color 0.3s ease; /* Add transition for smooth effect */
+}
+
+.first-slide-block:hover {
+  background-color: rgba(0, 0, 0, 0.1); /* Example hover effect: change background color */
+}
+
+.Lamp {
+  color: black;
+  font-size: 24px;
+  font-family: Arial;
+  font-weight: 400;
+  overflow-wrap: break-word;
+  position: relative;
+  bottom: 70px;
+  left: 120px;
+}
+.tv-meubel-div {
+  position: absolute;
+  left: 490px;
+}
+.kast {
+  position: absolute;
+  left: 900px;
+}
+.productName {
+  color: black;
+  font-size: 24px;
+  font-family: Arial, sans-serif;
+  font-weight: 400;
+  overflow-wrap: break-word;
+  position: relative;
+  bottom: 70px;
+  left: 120px;
+}
+.productImage {
+  border-radius: 2px;
+  height: 110px;
+  width: 130px;
+}
+.slide {
+  min-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer; /* Add pointer cursor to indicate clickability */
+}
+.slider {
+  display: flex;
+  transition: transform 0.3s ease-in-out;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  top: 10px;
+}
+
+.LivingRoom {
+  color: black;
+  font-size: 24px;
+  font-family: Arial;
+  font-weight: 400;
+  overflow-wrap: break-word;
+  position: relative;
+  left: 130px;
+  bottom: 70px;
+}
+
+.NewNow {
+  color: black;
+  font-size: 24px;
+  font-family: Arial;
+  font-weight: 400;
+  overflow-wrap: break-word;
+  position: relative;
+  left: 150px;
+  bottom: 70px;
+}
+
+.Chevron-left {
+  transform: rotate(180deg);
+  cursor: pointer;
+  position: absolute;
+  left: 92vw;
+  z-index: 99;
+}
+
+.Chevron { 
+  cursor: pointer;
+  z-index: 99;
+}
+.component-config {
+  height: 420px;
+  margin-top: 0px;
+}
+.components-selection {
+  height: 35px;
+  border: 0px solid #dcdcdc;
+  border-bottom: 1.2px solid #dcdcdc;
+  width: 350px;
+  margin-left: 27px;
+  padding-top: 0px;
+  margin-top: 20px;
+  display: inline-block;
+  transition: background-color 0.3s ease; /* Add transition for smooth effect */
+  cursor: pointer; /* Add this line to change the mouse cursor */
+}
+.components-selection:hover {
+  background-color: rgba(0, 0, 0, 0.1); /* Example hover effect: change background color */
+}
+
+.door {
+  height: 20px;
+  text-align: center;
+  display: inline-block;
+  position: relative;
+  width: 100px;
+}
+.door-icon {
+  width: 25px;
+  height: 28px;
+  position: relative;
+  top: 8px;
+}
+.frame-icon {
+  position: relative;
+  width: 25px;
+  height: 22px;
+  top: 10px;
+}
+.handle-icon {
+  width: 25px;
+  height: 22px;
+  position: relative;
+  top: 10px;
+}
+.drawer-icon {
+  position: relative;
+  top: 10px;
+  width: 25px;
+  height: 22px;
+}
+.rail-icon {
+  width: 25px;
+  height: 22px;
+  position: relative;
+  top: 8px;
+}
+.shelve-icon {
+  position: relative;
+  width: 25px;
+  height: 22px;
+  top: 10px;
+}
+.shoe-icon {
+  position: relative;
+  top: 10px;
+  width: 25px;
+  height: 22px;
+}
+.Container90 { 
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+@media (min-width: 1024px) {
+  .Container90 {
+    width: 100vw;
+    position: relative;
+    flex-wrap: nowrap;
+  }
+}
